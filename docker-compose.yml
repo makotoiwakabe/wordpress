@@ -2,6 +2,9 @@ webserver:
   image: wordpress
   ports:
     - "80:80"
+  volumes:
+    - ./wordpress/wp_html:/var/www/html
+    - ./data:/data
   links:
     - "dbserver:mysql"
 dbserver:
