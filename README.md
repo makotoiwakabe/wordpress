@@ -11,7 +11,7 @@
 ```
 <command >
  $ docker-compose ps
- $ docker-compose stop
+ $ docker-compose stop 
  $ docker-compose rm
 ```
 
