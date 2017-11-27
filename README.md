@@ -6,6 +6,7 @@
 3. check images  $ `docker images dataonly`
 4. run  $ `docker run -d --name dataonly dataonly`
 5.  $ `docker-compose up -d`
+6. open http://localhost:80
 
 ```
 <command >
