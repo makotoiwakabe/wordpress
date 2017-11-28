@@ -3,8 +3,7 @@ webserver:
   ports:
     - "80:80"
   volumes:
-    - ./wordpress/wp_html:/var/www/html
-    - ./data:/data
+    - ./wp_html:/var/www/html
   links:
     - "dbserver:mysql"
 dbserver:
