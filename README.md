@@ -17,3 +17,6 @@
 
 * Making backup  $ `docker export dataonly > backup.tar`
 * Restore data   $ `tar xvf backup.tar`
+
+### Wordpress Coding Standards
+[codex](https://codex.wordpress.org/WordPress_Coding_Standards)
